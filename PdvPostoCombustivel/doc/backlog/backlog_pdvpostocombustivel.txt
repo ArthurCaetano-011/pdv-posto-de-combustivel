@@ -23,18 +23,46 @@
                 - Nome
                 - Data de Nascimento
                 - Nº de CTPS
+
             # Acesso
                 - Login
                 - Senha
+
             # Contato
                 - Email
                 - Endereço
                 - Telefone
 
         1.2.2 - Cadastro de Produtos:
-        1.2.3 - Central de Custos:
-        1.2.4 - Gestão de Grupos:
+            # Produto
+                - Nome;
+                - Referência;
+                - Fornecedor;
+                - Marca;
 
+            # Preço
+                - Valor;
+                - DataHora;
+
+            # Estoque
+                - Quantidade;
+                - LocalTanque;
+                - LocalEndereço;
+                - LoteFuncionário;
+                - Validade;
+
+            # Percentual:(?)
+        1.2.3 - Gestão de Custos:
+            # Custos
+                - Imposto;
+                - CustosFixas;
+                - CustoManutenção;
+                - CustosOperacionais;
+                - CustosVariaveis;
+                - DataProcessamento;
+
+        1.2.4 - Gestão de Grupos:
+            # g
 
 
 
