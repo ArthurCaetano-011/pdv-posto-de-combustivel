@@ -19,7 +19,7 @@
     1.2 - Requisitos  Funcionais
         1.2.1 - Cadastro de Funcionário:
             # Pessoa
-                - CPF
+                - CPF - String;
                 - Nome
                 - Data de Nascimento
                 - Nº de CTPS
@@ -48,14 +48,14 @@
                 - Quantidade;
                 - LocalTanque;
                 - LocalEndereço;
-                - LoteFuncionário;
+                - LoteFabricação;
                 - Validade;
 
             # Percentual:(?)
         1.2.3 - Gestão de Custos:
             # Custos
                 - Imposto;
-                - CustosFixas;
+                - CustosFixos;
                 - CustoManutenção;
                 - CustosOperacionais;
                 - CustosVariaveis;
